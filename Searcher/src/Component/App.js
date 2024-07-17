@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Photo from './../images.png'
-import Unsplash from './../1_3DB6qJGyUFL5LbSBGEgEtg.png'
+import Photo from './../photos/images.png'
+import Unsplash from './../photos/1_3DB6qJGyUFL5LbSBGEgEtg.png'
 import './style.css'
 function App() {
 
