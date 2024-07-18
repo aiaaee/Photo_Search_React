@@ -13,6 +13,7 @@ function App() {
     .then(data => {
       setResult(data.results)
     })
+    .catch(err => console.log(err))
   }
 
   return (
