@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+  }
+  body {
+    direction: ltr;
+    font-family: 'vazir' !important;
+  }
+  span{
+    margin-right: 12px;
+    font-size: 20px;
+  }
+  span img{
+    width: 100px;
+    margin-top: 5px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 300px;
+    box-shadow: 0 0 10px rgba(117,117,117,.3);
+  }
+  
+  .header input{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid rgb(180, 180, 180);
+  }
+  
+  .header button{
+    width: 150px;
+    background: crimson;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .gallery img{
+    border-radius: 12px;
+    margin: 10px;
+    width: 25%;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .SoloSplash h2{
+    font-size: 50px;
+    margin-top: 12px;
+    text-align: center;
+  }
+  .SoloSplash p{
+    margin-top: 5px;
+    text-align: center;
+  }
+  .SoloSplash img{
+    width: 100%;
+    margin-top: 12px;
+  }
