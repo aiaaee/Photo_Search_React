@@ -10,7 +10,7 @@ In this project, there is a significant difference between using fetch and axios
 
 ```
 const fetchImage = () => {
-    fetch(`https://api.unsplash.com/search/photos/?client_id=gNYoN-Lb_a6htizxkrg0A00SDG6TJIWmfTFqmP5suyA&query=${value}`)
+    fetch(`https://api.unsplash.com/search/photos/?client_id={your_Client_id}&query=${value}`)
     .then(res => res.json())
     .then(data => {
       setResult(data.results)
