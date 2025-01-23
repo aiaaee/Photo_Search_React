@@ -1,7 +1,7 @@
 # Image Search Using API in React 
 
 In this project, leveraging the `fetch` method in JavaScript, I have created an image search engine using the Unsplash website. This engine utilizes React and its components to fetch images from the website.
-
+ 
 ![unsplash_image1](https://github.com/user-attachments/assets/c86a4e7b-00f6-40bc-822f-a688fe6e39bd)
 
 In this project, there is a significant difference between using fetch and axios. The main difference is that fetch requires one additional step, necessitating an extra then clause.
